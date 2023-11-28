@@ -1,0 +1,114 @@
+<div class="background">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@300&family=Roboto+Slab:wght@500;800&family=Roboto:ital,wght@0,300;0,400;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+        <!-- Add your other stylesheets and meta tags here -->
+    </head>
+<div class="background">
+    <header>
+        <div class="contain">
+            <a class="logo" href="/">
+                <svg width="35" height="46" viewBox="0 0 1103 996" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                </svg>
+            </a>
+            <div class="right">
+                <div class="column" *ngFor="let column of linksPhy">
+                    <div class="row">
+                        <a *ngFor="let link of column" [routerLink]="['/', link.toLowerCase().replace(' ', '-')]">{{ link }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+    <div class="contents">
+        <div class="section">
+            <h1>Directory of Physicians</h1>
+            <div class="crumbs">
+                <h2>
+                <a href="/physicians" class="specialities-link">Specialities</a> / Anesthesiology</h2> 
+            </div>
+            <br><br><br>
+        
+    <div class="name-container">
+        <div class="name"><a (click)="onClick(1)">Aaron Kalin</a></div>
+        <div class="name"><a (click)="onClick(2)">Allen Ninh</a></div>
+        <div class="name"><a (click)="onClick(3)">Andrew G. Newman</a></div>
+        <div class="name"><a (click)="onClick(4)">Andrew Boby Banooni</a></div>
+        <div class="name"><a (click)="onClick(5)">Brent Michael Altenhof</a></div>
+        <div class="name"><a (click)="onClick(6)">Raffi Vahan Chemsian</a></div>
+        <div class="name"><a (click)="onClick(7)">David C Lyons</a></div>
+        <div class="name"><a (click)="onClick(8)">Edward M. Tavel</a></div>
+        <div class="name"><a (click)="onClick(9)">Farooq Anwar Khan</a></div>
+        <div class="name"><a (click)="onClick(10)">James R Diesfeld</a></div>
+        <div class="name"><a (click)="onClick(11)">Joseph David Belmonte</a></div>
+        <div class="name"><a (click)="onClick(12)">John Scott Walton</a></div>
+        <div class="name"><a (click)="onClick(13)">Margaret Kathleen Menzel</a></div>
+        <div class="name"><a (click)="onClick(14)">Kenneth R Goldschneider</a></div>
+        <div class="name"><a (click)="onClick(15)">Lorne M Cross</a></div>
+    </div>
+</div>
+</div> 
+</body>
+</div>
+
+<!-- <div class="foot"> -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-columns">
+                <div class="footer-links">
+                    <div class="footer-logo">
+                            <svg width="1103" height="996" viewBox="0 0 1103 996" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                            </svg>
+                        
+                    </div>
+                    <section>
+                        <ul>
+                            <li><a href="/about-us" title="About Us">About Us</a></li>
+                            <li><a href="/doximity-app" title="Doximity App">Doctors App</a></li>
+                            <li><a href="/partner-overview" title="Partner Overview">Partner Overview</a></li>
+                            <li><a href="/press" title="Press">Press</a></li>
+                            <li><a href="/op-med" title="Op-Med">Op-Med</a></li>
+                            <li><a href="/residency-navigator" title="Residency Navigator">Residency Navigator</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li><a href="/directory" title="Directory">Directory</a></li>
+                            <li><a href="/hiring-solutions" title="Hiring Solutions">Hiring Solutions</a></li>
+                            <li><a href="/work@" title="Work@">Work@</a></li>
+                            <li><a href="/terms-of-service" title="Terms of Service">Terms of Service</a></li>
+                            <li><a href="/hospital-solutions" title="Hospital Solutions">Hospital Solutions</a></li>
+                            <li><a href="/contact" title="Contact">Contact</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li><a href="/investors" title="Investors">Investors</a></li>
+                            <li><a href="/research" title="Research">Research</a></li>
+                            <li><a href="/developer-api" title="Developer API">Developer API</a></li>
+                            <li><a href="/blog" title="Blog">Blog</a></li>
+                            <li><a href="/privacy" title="Privacy">Privacy</a></li>
+                            <li><a href="/help" title="Help">Help</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-description">
+                    <h3>Jaya Prakash</h3>
+                </div>
+                <small><span id="year"></span></small>
+            </div>
+        </div>
+    </footer>
+<!-- </div> -->
+

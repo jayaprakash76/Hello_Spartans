@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@300&family=Roboto+Slab:wght@500;800&family=Roboto:ital,wght@0,300;0,400;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+
+<html lang="en">
+<body class="background">
+<head>
+    <meta name="google-site-verification" content="hEbQKSrnqWQPfXBGl1g172ff3ubGzKeTy5gFSgz0mx8" />
+</head>
+
+    <div class="container">
+        <a class="logo" href="/">
+            <svg width="35" height="46" viewBox="0 0 1103 996" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M410.988 255.56L0 995.337H189.802L505.141 427.427L410.988 255.56ZM1102.94 995.337L647.119 170.373L551.471 0L457.317 170.373L551.471 340.746L711.79 629.718H498.683L405.461 786.972H799.034L914.634 995.337H1102.94Z" fill="#FAFBFC"/>
+            </svg>
+        </a>
+        <div class="right">
+            <div class="row" *ngFor="let row of linkRows">
+                <div class="column" *ngFor="let link of row">
+                    <a [routerLink]="['/', link.toLowerCase().replace(' ', '-')]">{{ link }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

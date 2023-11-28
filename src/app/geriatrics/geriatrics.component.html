@@ -1,0 +1,29 @@
+
+<header>
+    <div class="contain">
+        <a class="logo" href="/">
+            <img alt="Doximity Logo" loading="eager" src="">
+        </a>
+        <div class="right">
+            <div class="column" *ngFor="let column of linksPhy">
+                <div class="row">
+                    <a *ngFor="let link of column" [routerLink]="['/', link.toLowerCase().replace(' ', '-')]">{{ link }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<br><br><br>
+<div class="container">
+   
+    <img class="logo" src="https://assets.doxcdn.com/image/upload/fl_sanitize/logos/doximity/logo-d.svg" alt="">
+        <div class="right">
+          <div class="row" *ngFor="let row of linkRows">
+            <div class="column" *ngFor="let link of row">
+                <a [routerLink]="['/', link.toLowerCase().replace(' ', '-')]">{{ link }}</a>
+            </div>
+          </div>
+        </div>
+    </div>

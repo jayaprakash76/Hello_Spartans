@@ -1,0 +1,105 @@
+/* Apply styles to the help page container */
+.help-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style headings */
+  h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  /* Style FAQ list */
+  .faq-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .faq-list li {
+    margin-bottom: 20px;
+  }
+  
+  /* Style FAQ question and answer */
+  .faq-list strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style contact options */
+  .contact-options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-options li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Add hover effect for contact options */
+  .contact-options li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Add more CSS styles as needed to further customize your help page */
+  /* Style the search bar */
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  /* Center the search bar horizontally and add space at the top */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the filtered FAQ list */
+  .faq-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add hover effect for FAQ items */
+  .faq-list li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  

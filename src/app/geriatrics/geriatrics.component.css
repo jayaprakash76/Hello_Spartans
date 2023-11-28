@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+ .logo {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    bottom: 60px;
+    width: 50px;
+    margin-left: 290px;
+    
+}
+
+.right {
+    font: caption ;
+    flex: 2;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 20px;
+
+
+}
+
+.row {
+    font: bolder ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* .center {
+    text-align: center;
+    
+} */
+.direct .center {
+    font: caption ;
+    margin-top: 150px;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+
+    
+}
+header::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #ccc; /* Adjust color as needed */
+    margin-top: 10px; /* Adjust the spacing between the header and the line */
+  }
+
+.heading {
+    margin-top: 150px;
+    text-align: left;
+    font-size: 20px;
+    margin-left:260px;
+    color: #4b4a4a;
+}
+.headingst {
+    text-align: left;
+    font-size: 20px;
+    margin-left:260px;
+    color: #4b4a4a;
+}
+.phys .row .column {
+    background: #FAFAFA;
+    color: #444;
+    font: 18px/1.7 "HK Grotesk", -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin-left:260px;
+    -webkit-text-size-adjust: 100%;
+    text-align: left;
+
+
+
+}

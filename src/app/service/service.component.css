@@ -1,0 +1,44 @@
+p {
+    margin-left:200px;
+    margin-right: 400px;
+    text-align: center;
+    text-align: justify;
+}
+h2 {
+    margin-left: 200px;
+}
+h4 {
+    margin-left: 200px;
+}
+.con2 {
+    position: relative;
+    top: 5px;
+    left: 200px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #0f2f55;
+}
+.con1 {
+    position: relative;
+    top: 20px;
+    left: 200px;
+    color: grey;
+    font-size: 15px;
+}
+.con h3::after {
+    display: inline-block;
+    content: "";
+    width: 97px;
+    height: 1px;
+    background: rgba(255, 68, 0, 0.922);
+    margin: 3px;
+}
+.con h3::after {
+    display: inline-block;
+    content: "";
+    width: 97px;
+    height: 1px;
+    background: rgba(255, 68, 0, 0.922);
+    margin: 3px;
+}

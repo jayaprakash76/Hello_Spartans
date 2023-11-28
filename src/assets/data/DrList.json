@@ -1,0 +1,159 @@
+[
+   {
+      "id": 1,
+      "image": "../../assets/images/aaronkalin.jpg",
+      "name": "Aaron kalin",
+      "summary": "Accomplished healthcare executive with a demonstrated history of achieving strong financial, operational, and quality performance within highly matrixed healthcare organizations. Exceptional business acumen with a deep understanding of executive leadership, coaching, business development, large group physician governance, and organizational alignment.",
+      "Education": "Management & Strategy Institute,American Association for Physician Leadership, Cornell University, West Texas A&M University, University of Illinois College of Medicine at Chicago, University of New England College of Osteopathic Medicine, Westfield State university, Springfield Technical Community College",
+      "Certifications": "IL State License, CA State License, AZ State License, FL State License, NC State License,VA State License",
+      "Awards": "Salutatorian (Graduating Class), Academic Excellence Award, National Dean’s List "
+    },
+
+    {
+      "name": "Allen Ninh",
+      "image": "../../assets/images/allen.webp",
+      "id": 2,
+      "summary": " Allen Ninh is a clinical fellow in the University of British Columbia's Department of Psychiatry. His research focuses on the intersection of neuroscience and Buddhist philosophy, with a particular interest in the neural mechanisms underlying mindfulness meditation. He has published numerous papers on these topics and is a highly respected figure in the field of psychiatry.",
+      "Education": "Stanford Health Care-Sponsored Stanford University,Icahn School of Medicine at Mount Sinai/Mount Sinai Hospital,Icahn School of Medicine at Mount Sinai,University of California, San Diego",
+      "Certifications": "Allen Ninh is a prominent clinical fellow certification body that offers various certifications in medical and healthcare fields. Their certifications are designed to assess and validate the knowledge, skills, and competencies of healthcare professionals. Some of the certifications offered by Allen Ninh include Certified Clinical Research Coordinator (CCRC), Certified Clinical Research Professional (CCRP), and Certified Medical Investigator (CMI). These certifications are recognized and respected in the healthcare industry, and can help advance one's career in clinical research and medical investigation,CA State Medical License",
+      "Awards":"granted to outstanding clinical fellows who have demonstrated excellence in their clinical work and research in the field of medicine. These awards are named after Dr. Allen Ninh, a distinguished physician and educator who was a pioneer in the field of critical care medicine. The awards are presented annually by the American Thoracic Society (ATS) and are highly regarded in the medical community."
+    },
+
+    {
+        "name": "Andrew G.Newman",
+        "id": 3,
+        "image": "../../assets/images/Andrew.webp",
+        "summary": "Chief of Anesthesiology, Mercy Hospital of Philadelphia, Philadelphia, PA Northstar Anesthesia of PA,He has extensive experience in the field of anesthesiology and is known for his expertise in pain management, critical care, and perioperative medicine. Dr. Newman has published numerous research papers and has presented at several conferences on these top",
+        "Education": "Temple University Hospital, Mercy Catholic Medical Center,  Graduate Hospital, Albert Einstein Medical Center, Ross University School of Medicine",
+        "Certifications": "Andrew G. Newman is a certified anesthesiologist with extensive experience in the field. He is the current Chief of Anesthesiology at [Hospital Name] and has a strong track record of providing high-quality patient care. Dr. Newman is board certified in Anesthesiology and has a certificate from the American Board of Anesthesiology,NJ State Medical License, DE State Medical License, PA State Medical License  ",
+        "Awards":"Chief Resident in Anesthesiology,Eliasberg Research Scholar,Blue Ribbon Medical Education Research Award"
+    },
+
+    {
+        "name": "Andrew Boby Banooni",
+        "id": 4,
+        "image": "../../assets/images/Andrew Boby.webp",
+        "summary": "Pediatric Anesthesiologist at Healthpark Medical Center and Golisano Children's Hospital of Southwest Florida",
+        "Education": "Children's Hospital/Harvard Medical School,Brigham and Women's Hospital,Emory University School of Medicine",
+        "Certifications": "NJ State Medical License, DE State Medical License, PA State Medical License  ",
+        "Awards":"MI State Medical License, FL State Medical License, MA State Medical License"
+    },
+
+    {
+        "name": "Brent Michael Altenhof",
+        "id": 5,
+        "image": "../../assets/images/Brent Michael Altenhof.webp",
+        "summary": "Assistant Professor at the University of Toledo",
+        "Education": "University of North Carolina Hospitals, Mercy St Vincent Medical Center/Mercy Health Partners, The University of Toledo College of Medicine ",
+        "Certifications": "OH State Medical License, FL State Medical License, NC State Medical License",
+        "Awards":"Best Doctor of the year, Residents' Doctor of the year 2019"
+    },
+
+    {
+        "name": "Raffi Vahan Chemsian",
+        "id": 6,
+        "image": "../../assets/images/Raffi Vahan Chemsian.webp",
+        "summary": "Assistant Professor, Anesthesiology, U of WA Sch of Med",
+        "Education": "Montefiore Medical Center/Albert Einstein College of Medicine,Flushing Hospital Medical Center, St. George's University School of Medicine ",
+        "Certifications": "WA State Medical License",
+        "Awards":"American Board of Anesthesiology"
+    },
+      
+    {
+        "name": "David C Lyons",
+        "id": 7,
+        "image": "../../assets/images/David C Lyons.webp",
+        "summary": "Associate Professor of Clinical Anesthesiology and Perioperative Medicine, University of Rochester School of Medicine & Dentistry",
+        "Education": "Stony Brook University Health Sciences Center School of Medicine ",
+        "Certifications": "PG State Medical License, Certified professional in the medical field", 
+        "Awards":"ACS Fellow - 2012,AAO Fellow - 2013"
+    },
+
+    {
+        "name": "Edward M.Tavel",
+        "id": 8,
+        "image": "../../assets/images/Edward M.Tavel.webp",
+        "summary": "Born and raised in Charleston, SC, Dr. Tavel has practiced pain management since 1993. Passionate about providing his patients with the latest advances in pain treatment techniques, he leads his experienced medical staff in providing compassionate and customized care. Dr. Tavel uses a full range of interventional, non-surgical techniques and provides a comprehensive approach to treating pain. His special areas of interest include arthritis of the spine and chronic nerve related pain. He is specifically skilled in radiofrequency ablation for arthritic-related pain of the spine, and is one of the few physicians in the Charleston area performing neuromodulation therapy using spinal cord stimulation.",
+        "Education": "University of North Carolina Hospitals,Carilion Clinic-Virginia Tech Carilion School of Medicine ,Medical University of South Carolina,Davidson College",
+        "Certifications": "SC State Medical License, NC State Medical LicenseAmerican Board of Anesthesiology ,American Board of Pain Medicine ", 
+        "Awards":"150 Pain Management Physicians to Know,Roaring Twenties Winner - Small Business Category, CMS Meaningful Use Stage 1 Certification "
+    },
+
+    {
+        "name": "Farooq Anwar Khan",
+        "id": 9,
+        "image": "https://doximity-res.cloudinary.com/images/f_auto,q_auto,t_profile_photo_320x320/mfcyijm6fnr7vgaytfct/farooq-khan-md-hinsdale-il.jpg",
+        "summary": "Complex regional pain syndrome, Spinal stenosis, Spinal cord stimulation, Lumbar spondylosis, Lumbar spinal stenosis, Vertebral compression fractures, Minimally invasive lumbar decompression, Radiofrequency ablation, Facet rhizotomy, Facet joint injection, Cervical spondylolysis, Intrathecal drug delivery, Cervical spinal stenosis, Interspinous spacer implant, Percutaneous kyphoplasty, Minimally invasive lumbar fusion, Indirect lumbar decompression",
+        "Education": "McGaw Medical Center of Northwestern University, Rush University Medical Center, Rush University Medical Center,Rush Medical College of Rush University Medical Center",
+        "Certifications": "IL State Medical License,IN State Medical License,American Board of Anesthesiology, American Board of Anesthesiology ", 
+        "Awards":"Award for Excellence during his grueling Burn Surgery Fellowship at the world renowned Trauma Unit at the John H"
+      
+    },
+
+    {
+        "name": "James R Diesfeld",
+        "id": 10,
+        "image": "https://doximity-res.cloudinary.com/images/f_auto,q_auto,t_profile_photo_320x320/flispijgejzfewfc4wdo/james-diesfeld-md-chicago-il.jpg",
+
+        "summary": "JamesRDiesfeldMD is a cardiologist with over 20 years of experience. He has a strong track record of treating patients with complex heart conditions, including heart failure and coronary artery disease. He is known for his personalized approach and emphasis on preventive care.",
+        "Education": "UPMC Medical Education, Loyola University Medical Center, American University of the Caribbean School of Medicine",
+        "Certifications": "OR State Medical License, IL State Medical License, CA State Medical License, MI State Medical License, WI State Medical License, PA State Medical License, American Board of Anesthesiology, American Board of Anesthesiology ", 
+        "Awards":" "
+      
+    },
+
+    {
+        "name": "Joseph David Belmonte",
+        "id": 11,
+        "image": "https://doximity-res.cloudinary.com/images/f_auto,q_auto,t_profile_photo_320x320/v80gtvwscvqn0ilnkxnn/joseph-belmonte-do-lombard-il.jpg",
+        "summary": "Chicago Pain and Wellness Institute is your one stop medical center for interventional pain management and holistic wellness that provides unparalleled service ",
+        "Education": "Rush University Medical Center,Rush University Medical Center, Franciscan Health Olympia Fields, Chicago College of Osteopathic Medicine at Midwestern University, University Of Illinois Urbana/Champaign",
+        "Certifications": "IL State License, American Board of Anesthesiology, American Board of Anesthesiology", 
+        "Awards":"Robert D Dripps Memorial Award "
+      
+    },
+
+    {
+        "name": "John Scott Walton",
+        "id": 12,
+        "image": "https://doximity-res.cloudinary.com/images/c_crop,f_auto,h_298,q_auto,t_profile_photo_320x320,w_298,x_11,y_-1/lc1mswntzipnji7yhbiz/john-walton-md-charleston-sc.jpg",
+        "summary": "Medical University of South Carolina,Tripler Army Medical Center, Medical University of South Carolina",
+        "Education": "Rush University Medical Center,Rush University Medical Center, Franciscan Health Olympia Fields, Chicago College of Osteopathic Medicine at Midwestern University, University Of Illinois Urbana/Champaign",
+        "Certifications": "SC State Medical License, HI State Medical License, NC State Medical License, AL State Medical License",
+        "Awards":"Renowned philanthropist and entrepreneur "
+      
+    },
+
+    {
+        "name": "Margaret Kathleen Menzel",
+        "id": 13,
+        "image": "https://doximity-res.cloudinary.com/images/f_auto,q_auto,t_profile_photo_320x320/plt4rexudxuzusmisywg/margaret-ellis-md-portland-or.jpg",
+        "summary": "Critical Care Anesthesiologist and Medical Director of Surgical ICU, VA Portland Healthcare System; Assistant Professor of Anesthesiology and Perioperative Medicine, Oregon Health & Science University",
+        "Education": "Oregon Health & Science University(Chief Residency, Anesthesiology),California Pacific Medical Center(Internship),University of California San Francisco School of Medicine (Class of 2010)",
+        "Certifications": "OR State Medical License, American Board of Anesthesiology, American Board of Anesthesiology  ",
+        "Awards":"Chief Resident(Columbia University Medical Center) "
+      
+    },
+
+    {
+        "name": "Kenneth R Goldschneider",
+        "id": 14,
+        "image": "https://doximity-res.cloudinary.com/images/f_auto,q_auto,t_profile_photo_320x320/kqgod3kztxaixknpi89t/kenneth-goldschneider-md-cincinnati-oh.jpg",
+        "summary": "Kenneth R. Goldschneider is an American artist and educator known for his abstract expressionist paintings and teachings. He has exhibited widely in the US and abroad, and his work can be found in numerous public and private collections. Goldschneider has also written extensively on art and the creative process, and has taught at several prestigious art institutions.",
+        "Education": "UPMC Medical Education, Duke University Hospital, Uconn School Of Medicine ",
+        "Certifications": "OH State Medical License,KY State Medical License,IN State Medical License, AL State Medical LicenseAL State Medical License, PA State Medical License",
+        "Awards":"Fellow (FAAP) American Academy of Pediatrics"
+    },
+
+    {
+        "name": "Lorne M Cross",
+        "id": 15,
+        "image": "https://doximity-res.cloudinary.com/images/c_crop,f_auto,h_320,q_auto,t_profile_photo_320x320,w_320,x_0,y_-1/u5n8zzcbkty1e26ua1nm/lorne-cross-md-salem-or.jpg",
+        "summary": "Lorne Cross MD is an Addiction Treatment Specialist currently living in Portland, Oregon. He is currently serving as the Medical Director at Willamette Valley Treatment Center where they use Medication Assisted Treatment to help those looking to escape their opioid addiction. He is also the Medical Director of the new Opioid Treatment Program at Yamhill County Jail in McMinville where they're working to reduce the rate of inmate overdose, reduce recidivism in the prison population, and prevent relapse.",
+        "Education": "Loma Linda University Health Education Consortium Residency Anesthesiology, Southwester Adventist University B.S. Biology ",
+        "Certifications": "OR State Medical License, American Board of Anesthesiology",
+        "Awards":"annual awards given by the Association of Record Industry Professionals(ARIP) to recognize outstanding contributions in the record industry"
+    }
+
+
+] 

@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+.logo {
+
+  width: 50px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: 200px;
+
+}
+.left {
+  flex: 1;
+  text-align: left;
+  
+}
+
+.right {
+  flex: 2;
+  font-weight: bold;
+  margin-top: 200px;
+  margin-left: 400px;
+  flex: 2;
+  margin-right: 20px;
+  /* font-family: 'Gabarito', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Roboto Slab', serif; */
+  /* font-family: 'Young Serif', serif; */
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin-left: 0;
+  
+}
+
+.row {
+  
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  margin-bottom: 15px;
+  
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+
+a {
+  
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: rgb(0, 157, 255);
+}
+
+
+
+
+.background {
+background-image: url('../../assets/images/cloudbg.jpg');
+margin-top: 1px;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 100vh; 
+}

@@ -1,0 +1,222 @@
+body {
+    background: #FFF;
+    color: #444;
+    font: 17px/1.7 "HK Grotesk", -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    /* font-smoothing: antialiased; */
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+}
+injected stylesheet
+#detailOutWrap, body {
+    transition: margin-top 0.5s ease 0s;
+}
+* {
+    outline: none;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --dox-custom-follow-border-color: rgba(255, 255, 255, 0.2);
+    --dox-custom-press-padding-size: 5%;
+    --dox-custom-press-social-link-size: 40px;
+    --dox-custom-press-video-padding: 2%;
+    --dox-custom-marketing-sections-border-color: #DDD;
+    --dox-custom-company-about-section-prop-delta: 35px;
+    --dox-custom-mobile-app-download-hero-star-wrap-color: #FF9500;
+    --dox-custom-slider-animation-speed: 500ms;
+    --dox-custom-slider-border-color: #DDD;
+}
+:root {
+    --dox-modal-corner-radius: 5px;
+    --dox-modal-top-bottom-delta: 10%;
+}
+:root {
+    --dox-input-size: 16px;
+    --dox-input-border-width: 1px;
+    --dox-input-padding: 11px;
+    --dox-input-text-input-padding-left-right: 25px;
+    --dox-input-text-input-padding: 16px 25px;
+    --dox-input-button-padding: 17px 25px;
+    --dox-input-select-padding: 16px;
+    --dox-input-select-padding-firefox: 10px;
+    --dox-input-select-padding-ie: 10px;
+    --dox-input-left-right-padding: 16px;
+    --dox-input-checkbox-checked: #1276D3;
+    --dox-input-background-color: #f6f6f6;
+    --dox-input-background-color-hover: #eee;
+    --dox-input-height: 54px;
+}
+:root {
+    --dox-loader-large: 48px;
+    --dox-loader: 32px;
+    --dox-loader-small: 16px;
+    --dox-loader-smallest: 9px;
+}
+:root {
+    --dox-grid-padding: 1.5%;
+    --dox-grid-padding-single-side: 3%;
+}
+:root {
+    --dox-color-wcag-blue: #1276D3;
+    --dox-color-wcag-gray: #666;
+}
+:root {
+    --dox-transform-translate: translateZ(0);
+}
+:root {
+    --dox-transition-standard-animation-speed: 0.1s;
+    --dox-transition-all: all 0.1s ease-in-out;
+    --dox-transition-color: color 0.1s ease-in-out;
+}
+:root {
+    --dox-color-social-twitter: #5AA9E0;
+    --dox-color-social-facebook: #4267B2;
+    --dox-color-social-google: #D93B2B;
+    --dox-color-social-linkedin: #0076B9;
+    --dox-color-social-youtube: #cd201f;
+}
+:root {
+    --dox-tooltop-background-fallback: #222;
+    --dox-tooltop-background: rgba(0, 0, 0, 0.9);
+}
+:root {
+    --dox-text: #444;
+    --dox-text-bold: 600;
+}
+:root {
+    --dox-header-link-hover: #F5F5F5;
+    --dox-header-width: 1440px;
+}
+:root {
+    --dox-color-link: #1276D3;
+    --dox-color-hover: #000;
+    --dox-color-focus: rgba(255, 0, 0, 0.2);
+}
+:root {
+    --dox-overlay-default: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    --dox-overlay-white: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+    --dox-overlay-black: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8));
+    --dox-overlay-gray: linear-gradient(rgba(50, 50, 50, 0.5), rgba(200, 200, 200, 0.3));
+    --dox-overlay-red: linear-gradient(to bottom right, rgba(250, 0, 20, 0.4), rgba(250, 0, 200, 0.3));
+    --dox-overlay-orange: linear-gradient(to bottom right, rgba(250, 70, 0, 0.5), rgba(250, 250, 0, 0.3));
+    --dox-overlay-green: linear-gradient(to bottom right, rgba(80, 230, 100, 0.5), rgba(0, 100, 250, 0.3));
+    --dox-overlay-blue: linear-gradient(to bottom right, rgba(20, 100, 250, 0.5), rgba(0, 190, 50, 0.2));
+}
+:root {
+    --dox-bg-gradient-default: linear-gradient(to bottom right, #4B99CB, #91E1B9);
+    --dox-bg-gradient-default-fallback: #4B99CB;
+    --dox-bg-gradient-red: linear-gradient(to bottom right, #BB3D53, #FF2F39);
+    --dox-bg-gradient-red-fallback: #BB3D53;
+    --dox-bg-gradient-orange: linear-gradient(to bottom right, #EE495C, #F09259);
+    --dox-bg-gradient-orange-fallback: #EE495C;
+    --dox-bg-gradient-green: linear-gradient(to bottom right, #45D093, #B0CB80);
+    --dox-bg-gradient-green-fallback: #45D093;
+    --dox-bg-gradient-blue: linear-gradient(to bottom right, #1276D3, #0e5ca4);
+    --dox-bg-gradient-blue-fallback: #1276D3;
+    --dox-bg-gradient-black: linear-gradient(to bottom right, #161616, #444);
+    --dox-bg-gradient-black-fallback: #161616;
+    --dox-bg-gradient-gray: linear-gradient(to bottom right, #999, #DDD);
+    --dox-bg-gradient-gray-fallback: #999;
+    --dox-bg-gradient-gray-light: linear-gradient(to bottom right, #DDD, #EEE);
+    --dox-bg-gradient-gray-light-fallback: #DDD;
+    --dox-bg-gradient-gray-lighter: #EEE;
+    --dox-bg-gradient-gray-lightest: #F9F9F9;
+    --dox-bg-gradient-white-gradient: linear-gradient(360deg, white 70%, rgba(255, 255, 255, 0) 100%);
+}
+:root {
+    --dox-bg-transparent: rgba(0, 0, 0, 0.1);
+    --dox-bg-tab: #BBB;
+}
+:root {
+    --dox-button-disabled-background: #E1E1E1;
+    --dox-button-disabled-text: #C0C0C0;
+}
+:root {
+    --dox-color-white: #FFF;
+    --dox-color-black: #000;
+    --dox-color-gray-dark: #333;
+    --dox-color-gray-darkish: #585858;
+    --dox-color-gray: #666;
+    --dox-color-gray-medium: #999;
+    --dox-color-gray-light: #BBB;
+    --dox-color-gray-lighter: #EEE;
+    --dox-color-gray-lightest: #F9F9F9;
+    --dox-color-red: #EE032B;
+    --dox-color-red-dark: #C80600;
+    --dox-color-red-bright: #FF0008;
+    --dox-color-red-light: #FF4451;
+    --dox-color-orange: #FC632A;
+    --dox-color-orange-bright: #FF8D00;
+    --dox-color-yellow: #FAC917;
+    --dox-color-yellow-bright: #FCDD7B;
+    --dox-color-green: #26A53B;
+    --dox-color-green-dark: #1A7C2A;
+    --dox-color-green-bright: #7EB930;
+    --dox-color-green-light: #4CD964;
+    --dox-color-blue: #1276D3;
+    --dox-color-blue-bright: #2E98FB;
+    --dox-color-blue-gradient: linear-gradient(134.94deg, #30B9F3 0%, #3864E2 142.01%);
+}
+:root {
+    --dox-radius-standard: 5px;
+    --dox-radius-standard-lg: 10px;
+    --dox-radius-round: 99em;
+    --dox-radius-standard-checkbox: 3px;
+}
+:root {
+    --dox-font-system: -apple-system, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    --dox-font-system-android: Roboto, system-ui, sans-serif;
+    --dox-font-hk-grotesk: HK Grotesk, -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+}
+:root {
+    --dox-breakpoint-desktop-lg: 1680px;
+    --dox-breakpoint-desktop: 1440px;
+    --dox-breakpoint-laptop: 1280px;
+    --dox-breakpoint-laptop-tablet: 1260px;
+    --dox-breakpoint-tablet: 1080px;
+    --dox-breakpoint-tablet-portrait: 960px;
+    --dox-breakpoint-phablet: 860px;
+    --dox-breakpoint-phablet-handheld: 780px;
+    --dox-breakpoint-handheld: 667px;
+    --dox-breakpoint-handheld-portrait: 480px;
+    --dox-breakpoint-handheld-portrait-sm: 360px;
+}
+:root {
+    --dox-text-size-xs: 12px;
+    --dox-text-size-sm: 14px;
+    --dox-text-size-md: 16px;
+    --dox-text-size-lg: 20px;
+    --dox-text-size-xl: 28px;
+}
+:root {
+    --dox-spacing-xs: 5px;
+    --dox-spacing-sm: 10px;
+    --dox-spacing-md: 15px;
+    --dox-spacing-lg: 20px;
+    --dox-spacing-xl: 25px;
+    --dox-spacing-xxl: 30px;
+    --dox-spacing-xxxl: 35px;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body:after {
+    content: "";
+    display: table;
+    clear: both;
+}

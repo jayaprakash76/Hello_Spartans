@@ -1,0 +1,176 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+ .logo {
+    position: absolute;
+    width: 10px;
+    margin-left: 5px; /* Add margin to separate logo from content */
+    margin-bottom:10px ;
+    
+}
+
+.right {
+    font: caption ;
+    flex: 2;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 20px;
+
+
+}
+
+.row {
+    font: bolder ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+/* .center {
+    text-align: center;
+    
+} */
+.direct .center {
+    font: caption ;
+    margin-top: 150px;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+
+    
+}
+header::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #ccc; /* Adjust color as needed */
+    margin-top: 10px; /* Adjust the spacing between the header and the line */
+  }
+
+.heading {
+    margin-top: 150px;
+    text-align: left;
+    font-size: 20px;
+    margin-left:260px;
+    color: #4b4a4a;
+}
+.logod {
+    position: absolute;
+    width: 40px;
+    margin-left: 200px; /* Add margin to separate logo from content */
+    margin-bottom:10px ;
+    
+}
+.headingst {
+    text-align: left;
+    font-size: 20px;
+    margin-left:260px;
+    color: #4b4a4a;
+}
+.phys .row .column {
+    background: #fff;
+    color: #444;
+    font: 18px/1.7 "HK Grotesk", -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin-left:260px;
+    -webkit-text-size-adjust: 100%;
+    text-align: left;
+}
+.phys {
+    border-bottom: 1px solid #ccc;
+}
+
+    /* .contents {
+margin-top: 100px;
+    background: #F9F9F9;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    color: #2f2d2d;
+} */
+.contents .section h1 {
+    margin-top: 50px;
+    font-size: 45px; /* Adjust the size as needed */
+    text-align: center;
+    color: #484646;
+    
+    
+
+}
+
+.contents .section h2 {
+    font-size: 30px; /* Adjust the size as needed */
+    text-align: center;
+    color: #0c0c0c;
+    
+    
+
+}
+
+.profile-photo {
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    width: 100px;
+    text-align: center;
+}
+* {
+    outline: none;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.center, .hero .section, .center-always {
+    text-align: center;
+}
+.contents {
+    background: #FFF;
+    font-size: 16px;
+}
+body {
+    background: #FAFAFA;
+    color: #444;
+    font: 18px/1.7 "HK Grotesk", -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+.profile-photo {
+    width: 100px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
